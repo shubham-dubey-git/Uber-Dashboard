@@ -1,4 +1,4 @@
-# UBER DASHBOARD- END-TO-END PROJECT
+# UBER DASHBOARD: END-TO-END PROJECT
 
 ## PROJECT OVERVIEW
 
@@ -30,8 +30,6 @@ The dataset was cleaned and transformed using SQL & Python and then visualized i
 | Power BI              | Dashboarding, data modeling, DAX measures |
 | SQL (MySQL)           | Data extraction and transformation        |
 | Python                | Data preprocessing and cleaning           |
-| Excel / Google Sheets | Data formatting and initial cleaning      |
-
 
 ##  PROJECT STRUCTURE
 
