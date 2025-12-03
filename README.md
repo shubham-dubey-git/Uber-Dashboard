@@ -1,76 +1,57 @@
-# UBER DASHBOARD – PROJECT
+# UBER DASHBOARD- END-TO-END PROJECT
 
-## 📌 PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
-This project focuses on analyzing Uber ride data to uncover business insights related to sales performance, revenue trends, customer behavior, and operational patterns. The goal of the dashboard is to support data-driven decision-making through interactive visualizations and KPIs.
+This project analyzes Uber ride booking data to uncover insights related to sales performance, ride completion, customer behavior, and operational efficiency. The dashboard provides interactive visualizations and KPIs that support data-driven decision-making for business planning and growth.
 
-Using Power BI, Python, SQL, and Excel, the dataset was cleaned, transformed, and modeled to build a dynamic dashboard that highlights key metrics and trends essential for business planning.
+The dataset was cleaned and transformed using SQL & Python and then visualized in Power BI to explore trends across time, location, vehicle type, and customer segments.
 
-## 🎯 OBJECTIVE
+## OBJECTIVE
 
-> Analyze booking trends, revenue distribution, and ride performance.
+* Analyze booking trends and revenue distribution.
+* Identify sales patterns by date, time, location, and customer groups.
+* Track booking performance including cancellations and completed rides.
+* Build KPIs for Revenue, Completed Rides, Lost Bookings, and Customer Acquisition.
+* Present insights through a dynamic Power BI dashboard.
 
-> Identify sales patterns by time, date, location, and customer segments.
+## DASHBOARD FEATURES
 
-> Track cancellations and ride completion behavior.
+* **Revenue Insights:** Total revenue, revenue trends, top payment methods.
+* **Ride Status Breakdown:** Completed, Cancelled by Customer, Cancelled by Driver, No Driver Found, Incomplete.
+* **Customer Insights:** Top customers and acquisition trends.
+* **Time-Based Trends:** Hourly, daily, and monthly booking performance.
+* **Location & Vehicle Type Analysis**
+* **Cancellation Reason Analysis** for optimizing operational decisions.
 
-> Build KPIs for revenue, completed rides, Booking Count, Lost Bookings, and customer acquisition.
+## TOOLS & TECHNOLOGIES
 
-> Present insights through an interactive Power BI dashboard.
-
-
-##  DASHBOARD FEATURES
-
-Revenue Insights – Total revenue, average revenue per ride, top payment modes.
-
-Ride Status Breakdown – Completed, Cancelled by Customer/Driver, No Driver Found, Incomplete.
-
-Customer Insights – Top customers, customer acquisition trends.
-
-Time-based Trends – Hourly, daily, and monthly booking patterns.
-
-Vehicle Type & Location Analysis
-
-Cancellation Reason Analysis to improve operations.
+| Tool                  | Usage                                     |
+| --------------------- | ----------------------------------------- |
+| Power BI              | Dashboarding, data modeling, DAX measures |
+| SQL (MySQL)           | Data extraction and transformation        |
+| Python                | Data preprocessing and cleaning           |
+| Excel / Google Sheets | Data formatting and initial cleaning      |
 
 
-## 🛠 TOOLS & TECHNOLOGIES
+##  PROJECT STRUCTURE
 
-Tools: Power BI	Dashboarding, DAX measures, modeling
-Excel / Google Sheets	Initial cleaning, formatting
-SQL (MySQL)	Data extraction, transformations
-Python	(Data preprocessing) 
+Uber-Sales-Dashboard
 
-## 📁 PROJECT STRUCTURE
+* Dataset
+* Python Cleaning
+* SQL Scripts
+* Power BI File (.pbix)
+* README.md
 
-Uber-Sales-Dashboard:
+## KEY INSIGHTS
 
-│── Dataset
+* Peak demand periods reveal opportunities for surge pricing and driver allocation.
+* Significant cancellation rates due to long wait times and lack of driver availability.
+* Revenue is concentrated within specific time windows and customer categories.
+* Operational efficiency improved through real-time tracking and performance KPIs.
 
-│── Python Cleaning
+## OUTCOME
 
-│── SQL Scripts
-
-│── PowerBI File (.pbix)
-
-│── Images
-
-│── README.md
-
-## 📊 KEY INSIGHTS
-
-Peak demand periods revealed opportunities for surge pricing improvements.
-
-Most cancellations occurred due to long wait times & no driver availability.
-
-Revenue concentration in specific time windows and customer groups.
-
-Dashboard improved operations by enabling faster decision-making.
-
-##  OUTCOME
-
-> Improved understanding of ride and revenue trends.
-
-> Helps identify operational inefficiencies & customer behavior.
-
-> Supports strategic planning for pricing & driver allocation.
+* Better understanding of customer and ride performance patterns.
+* Identification of operational bottlenecks and cancellation drivers.
+* Supports strategic decisions for pricing, resource allocation, and service improvement.
