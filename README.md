@@ -1,4 +1,4 @@
-# Uber Sales Dashboard – Data Analytics Project
+# UBER DASHBOARD – PROJECT
 
 ## 📌 PROJECT OVERVIEW
 
